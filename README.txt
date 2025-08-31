@@ -1,4 +1,7 @@
-# What Does the SimpleStorage Contract Do?
+
+# SIMPLE STORAGE SOLIDITY PROJECT
+
+## WHAT DOES THE SIMPLESTORAGE CONTRACT DO?
 
 The `SimpleStorage` contract is a basic example of a Solidity smart contract for storing and retrieving numbers and associating them with names. Its main features are:
 
@@ -10,34 +13,34 @@ The `SimpleStorage` contract is a basic example of a Solidity smart contract for
 This contract is ideal for learning the basics of Solidity, including variables, structs, arrays, mappings, and simple functions.
 
 
-# Simple Storage Solidity Project
 
 This project contains a simple Solidity contract, deployment scripts, and tests for learning and experimenting with Ethereum smart contracts.
 
-## Folder Structure
+## FOLDER STRUCTURE
 
-```
+<pre>
+artifacts/
+├── SimpleStorage.json
+├── SimpleStorage_metadata.json
+└── build-info/
+  └── ba2095a6c5632618d3b2ced68c456645.json
+
 contracts/
-  └─ SimpleStorage.sol              # Simple storage contract
+└── SimpleStorage.sol
 
 scripts/
-  ├─ deploy_with_ethers.ts          # Deploy using Ethers.js
-  ├─ deploy_with_web3.ts            # Deploy using Web3.js
-  ├─ ethers-lib.ts                  # Ethers.js helper library
-  └─ web3-lib.ts                    # Web3.js helper library
+├── deploy_with_ethers.ts
+├── deploy_with_web3.ts
+├── ethers-lib.ts
+└── web3-lib.ts
 
 tests/
-  ├─ storage.test.js                # JS tests for SimpleStorage
-  └─ Ballot_test.sol                # Solidity test for Ballot
+├── storage.test.js
+└── Ballot_test.sol
+</pre>
 
-artifacts/
-  ├─ SimpleStorage.json
-  ├─ SimpleStorage_metadata.json
-  └─ build-info/
-      └─ ba2095a6c5632618d3b2ced68c456645.json
-```
 
-## How to Use
+## HOW TO USE
 
 1. **Compile Contracts:**
    - Use your preferred Solidity toolchain (Remix, Hardhat, etc.) to compile the contracts in `contracts/`.
@@ -48,9 +51,11 @@ artifacts/
 3. **Run Tests:**
    - Run the tests in `tests/` to verify contract functionality.
 
-## Contract on Etherscan
+
+## CONTRACT ON ETHERSCAN
 
 🔗 [View Deployed Contract on Sepolia Etherscan](https://sepolia.etherscan.io/address/0x6416Eb5DB065E7F2C12c485424479DB00D8daCe6)
 
 ---
+
 This setup helps you deploy and test Solidity contracts efficiently. Happy building!
